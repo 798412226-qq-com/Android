@@ -14,6 +14,11 @@ import android.widget.EditText;
 import android.widget.Toast;
 import android.widget.TextView.OnEditorActionListener;
 import android.view.View.OnClickListener;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.UnknownHostException;
 
 public class MainActivity extends Activity {
     /** Called when the activity is first created. */
@@ -88,6 +93,6 @@ public class MainActivity extends Activity {
         name.setText(get_text.getText() + "111111111");
         int a = 3;
         System.out.println(a + "adfadf");
-        
+
     }
 }
