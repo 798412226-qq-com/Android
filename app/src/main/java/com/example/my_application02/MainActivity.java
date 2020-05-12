@@ -92,6 +92,7 @@ public class MainActivity extends Activity {
         TextView get_text = (TextView) findViewById(R.id.edit_text);
         name.setText(get_text.getText() + "111111111");
         int a = 3;
+        System.out.println(a + "adfadf");
 
     }
 }
