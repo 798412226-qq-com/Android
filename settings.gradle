@@ -1,2 +1,5 @@
 rootProject.name='My_Application02'
 include ':app'
+include ':demo01'
+include ':demo02'
+include ':demo_03'
